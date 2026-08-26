@@ -1,10 +1,5 @@
-class Solution(object):
+class Solution:
     def letterCombinations(self, digits):
-        """
-        :type digits: str
-        :rtype: List[str]
-        """
-
         if not digits:
             return []
 
@@ -19,16 +14,15 @@ class Solution(object):
             "9": "wxyz"
         }
 
-        result = []
+        result = [""]
 
-        def backtrack(index, current):
-            if index == len(digits):
-                result.append(current)
-                return
+        for digit in digits:
+            new_result = []
 
-            for letter in phone[digits[index]]:
-                backtrack(index + 1, current + letter)
+            for combination in result:
+                for letter in phone[digit]:
+                    new_result.append(combination + letter)
 
-        backtrack(0, "")
+            result = new_result
 
         return result
