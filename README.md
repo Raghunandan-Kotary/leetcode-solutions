@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0217-contains-duplicate](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0242-valid-anagram](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
@@ -119,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0018-4sum) |
 | [0217-contains-duplicate](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Raghunandan-Kotary/leetcode-solutions/tree/master/0242-valid-anagram) |
 ## Backtracking
 |  |
 | ------- |
