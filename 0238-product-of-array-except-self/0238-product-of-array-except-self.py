@@ -1,16 +1,15 @@
-class Solution:
-    def productExceptSelf(self, nums):
-        n = len(nums)
-        answer = [1] * n
+class Solution(object):
+    def productExceptSelf(self, n):
+        answer = [1] * len(n)
 
-        prefix = 1
-        for i in range(n):
-            answer[i] = prefix
-            prefix *= nums[i]
+        left = 1
+        for i in range(len(n)):
+            answer[i] = left
+            left = left * n[i]
 
-        suffix = 1
-        for i in range(n - 1, -1, -1):
-            answer[i] *= suffix
-            suffix *= nums[i]
+        right = 1
+        for i in range(len(n) - 1, -1, -1):
+            answer[i] = answer[i] * right
+            right = right * n[i]
 
         return answer
